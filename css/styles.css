@@ -1,0 +1,163 @@
+body{
+    font-family: "Proxima Nova";
+}
+
+
+#title{
+    background-color:#ff4c68;
+    color:#fff;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15% 3%;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    
+}
+.download-btn{
+    margin: 7% 1%;
+}
+.titleimage{
+    width: 20%;
+    margin-left: 100px;
+    transform: rotate(25deg);
+    position: absolute;
+    
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color:#8f8f8f;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    color:white;
+    text-align: center;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+.testiimage{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    padding-top: 1rem;
+
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.logoimage{
+    width: auto;
+    height: 35px;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-coloumn{
+    padding-top: 20px;
+}
+
+@media (max-width:990px){
+
+    .titleimage{
+        position:relative;
+        transform:rotate(0);
+        width: 250px;
+        height: auto;
+        margin-right: 200px;
+        text-align: center;
+        right: 50px;
+    }
+
+    #title{
+        text-align: center;
+    }
+    .cta-heading{
+        font-size: 0.5rem
+    }
+    .btttns{
+        position: relative;
+        bottom: 25px;
+        top:10px;
+    }
+    
+    .doggoghiphy{
+        position: relative;
+        top: 20px;
+        width:100px;
+        height: auto;
+        padding-top: 10px;
+    }
+    #navbarTogglerDemo01{
+       text-align: left; 
+    }
+     .cccc{
+        position: relative;
+        right: 20px;
+     }
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 25%;
+    text-align: center;
+    color: #fff;
+
+}
+.btttns{
+    position: relative;
+    bottom: 40px;
+}
+.doggoghiphy{
+    width: 25%;
+    height: auto ;
+    position: relative;
+    bottom: 90px;
+    padding-bottom: 0px;
+}
+.cta-heading{
+    font-size:3.5rem;
+}
+#footer{
+    text-align: center;
+}
